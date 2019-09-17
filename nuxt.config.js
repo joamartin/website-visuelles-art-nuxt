@@ -55,5 +55,9 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+
+  router: {
+    base: process.env.NODE_ENV === 'development' ? '' : '/website-visuelles-art-nuxt/'
   }
 }
