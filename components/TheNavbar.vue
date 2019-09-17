@@ -2,7 +2,7 @@
   <header id="header">
     <div class="container banner">
       <div class="banner is-hidden-touch">
-        <img src="/images/banner.jpg" alt="bannière" />
+        <img src="~/assets/images/banner.jpg" alt="bannière" />
       </div>
     </div>
 

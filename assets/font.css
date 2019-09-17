@@ -1,23 +1,23 @@
 @font-face {
 	font-family: 'MarketDeco';
-	src: url('/fonts/MarketDeco.eot');
-	src: local('MarketDeco'), url('/fonts/MarketDeco.woff') format('woff'), url('/fonts/MarketDeco.ttf') format('truetype');
+	src: url('./fonts/MarketDeco.eot');
+	src: local('MarketDeco'), url('./fonts/MarketDeco.woff') format('woff'), url('./fonts/MarketDeco.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'GeosansLight';
-	src: url('/fonts/GeosansLight.eot');
-	src: local('GeosansLight'), url('/fonts/GeosansLight.woff') format('woff'), url('/fonts/GeosansLight.ttf') format('truetype');
+	src: url('./fonts/GeosansLight.eot');
+	src: local('GeosansLight'), url('./fonts/GeosansLight.woff') format('woff'), url('./fonts/GeosansLight.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'BebasNeue-Regular';
-	src: url('/fonts/BebasNeue-Regular.eot');
-	src: local('BebasNeue-Regular'), url('/fonts/BebasNeue-Regular.woff') format('woff'), url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+	src: url('./fonts/BebasNeue-Regular.eot');
+	src: local('BebasNeue-Regular'), url('./fonts/BebasNeue-Regular.woff') format('woff'), url('./fonts/BebasNeue-Regular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Bebas-Neue-Book';
-	src: url('/fonts/Bebas-Neue-Book.eot');
-	src: local('Bebas-Neue-Book'), url('/fonts/Bebas-Neue-Book.woff') format('woff'), url('/fonts/Bebas-Neue-Book.ttf') format('truetype');
+	src: url('./fonts/Bebas-Neue-Book.eot');
+	src: local('Bebas-Neue-Book'), url('./fonts/Bebas-Neue-Book.woff') format('woff'), url('./fonts/Bebas-Neue-Book.ttf') format('truetype');
 }

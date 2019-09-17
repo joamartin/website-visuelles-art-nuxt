@@ -5,24 +5,24 @@
     <div class="partner columns is-mobile">
       <div class="column is-3 has-text-centered">
         <a href="https://awarewomenartists.com/" target="_blank">
-          <img src="/images/aware.jpg" alt="logo aware" />
+          <img src="~/assets/images/aware.jpg" alt="logo aware" />
         </a>
       </div>
 
       <div class="column is-3 has-text-centered">
         <a href="http://www.culture.gouv.fr/" target="_blank">
-          <img class="portrait" src="/images/ministere_1.jpg" alt="logo ministère de la culture" />
+          <img class="portrait" src="~/assets/images/ministere_1.jpg" alt="logo ministère de la culture" />
         </a>
       </div>
 
       <div class="column is-3 has-text-centered">
         <a href="https://hfbretagne.com/" target="blank">
-          <img class="portrait" src="/images/Logo_HF.png" alt="logo HF Bretagne" />
+          <img class="portrait" src="~/assets/images/Logo_HF.png" alt="logo HF Bretagne" />
         </a>
       </div>
 
       <div class="column is-3 has-text-centered">
-        <img src="/images/Logo_TEM.jpg" alt="logo TEM" />
+        <img src="~/assets/images/Logo_TEM.jpg" alt="logo TEM" />
       </div>
     </div>
   </footer>
@@ -52,7 +52,7 @@ img.portrait {
 }
 
 @media (min-width: $tablet) {
-  footer: {
+  footer {
     margin-top: 5rem;
   }
 

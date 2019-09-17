@@ -16,7 +16,7 @@
             <p class="has-text-centered">
               On a rencontré des chercheur.es, commissaires d'exposition, historiennes de l'art qui abordent un point de leur de leur recherche et tentent de répondre à des questions comme " Qu'est-ce que le génie ? ", " Le talent a-t-il un sexe ? ", " Que deviennent les étudiantes en écolde d'art ? ", " Faut-il des quotas ? "
             </p>
-            <img src="/images/dumont.jpg" alt="Fabienne Dumont" />
+            <img src="~/assets/images/dumont.jpg" alt="Fabienne Dumont" />
           </nuxt-link>
         </div>
         <div class="category column is-half">
@@ -30,7 +30,7 @@
               Est-ce qu'il est vraiment impossible de faire une exposition de femmes artistes ?<br />
               Est-ce que les artistes racisé.e.s connaissent les mêmes difficultés que les autres artistes ?<br />
             </p>
-            <img src="/images/questions_thematiques.jpg" alt="Photos de personnes questionnées" />
+            <img src="~/assets/images/questions_thematiques.jpg" alt="Photos de personnes questionnées" />
           </nuxt-link>
         </div>
       </div>
