@@ -1,0 +1,59 @@
+
+html {
+  overflow: unset;
+}
+
+body {
+  overflow: auto;
+  transition: all 0.4s;
+}
+
+body.mobile-menu-active {
+  overflow: hidden;
+  transform: translate(260px, 0);
+  transition: all 0.4s;
+}
+
+h1.underline-centered:after,
+h2.underline-centered:after,
+h2.underline-right:after,
+h2.underline-left:after {
+  content:"";
+  display: block;
+  margin-top: 8px;
+  height: 3px;
+  background: #4a4a4a;
+}
+
+h1.underline-centered:after {
+  width: 40px;
+  margin-left: calc(50% - 20px);
+}
+
+h2.underline-centered:after {
+  width: 30px;
+  margin-left: calc(50% - 15px);
+}
+
+h2.underline-right:after {
+  width: 50px;
+  margin-left: calc(100% - 50px);
+}
+
+h2.underline-left:after {
+  width: 50px;
+  margin-right: calc(100% - 50px);
+}
+
+.container {
+  padding: 12px;
+  max-width: 960px;
+}
+
+.video-profile li {
+  margin-top: 0.2rem;
+}
+
+.video-profile p {
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,32 @@
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+h1, h2 {
+  font-family: 'BebasNeue-Regular';
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-family: 'Bebas-Neue-Book';
+}
+
+p, li {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  font-family: 'GeosansLight';
+}
+
+a {
+  color: #4a4a4a;
+  font-family: 'GeosansLight';
+  text-decoration: underline;
+}
