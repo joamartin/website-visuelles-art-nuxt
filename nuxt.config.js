@@ -58,6 +58,6 @@ export default {
   },
 
   router: {
-    base: process.env.NODE_ENV === 'development' ? '' : '/website-visuelles-art-nuxt/'
+    base: process.env.NODE_ENV === 'development' ? '' : ''
   }
 }
