@@ -14,7 +14,7 @@
           <nuxt-link class="page-link" to="/les-entretiens">
             <h2 class="has-text-centered underline-centered">Les Entretiens</h2>
             <p class="has-text-centered">
-              On a rencontré des chercheur.es, commissaires d'exposition, historiennes de l'art qui abordent un point de leur de leur recherche et tentent de répondre à des questions comme " Qu'est-ce que le génie ? ", " Le talent a-t-il un sexe ? ", " Que deviennent les étudiantes en écolde d'art ? ", " Faut-il des quotas ? "
+              Nous avons rencontré des chercheur.es, commissaires d'exposition, historiennes de l'art qui abordent un point de leur de leur recherche et tentent de répondre à des questions comme " Qu'est-ce que le génie ? ", " Le talent a-t-il un sexe ? ", " Que deviennent les étudiantes en écolde d'art ? ", " Faut-il des quotas ? "
             </p>
             <img src="~/assets/images/dumont.jpg" alt="Fabienne Dumont" />
           </nuxt-link>
@@ -23,12 +23,11 @@
           <nuxt-link class="page-link" to="/les-questions-thematiques">
             <h2 class="has-text-centered underline-centered">Les Questions Thematiques</h2>
             <p class="has-text-centered">
-              On a voulu répondre à quelques questions plus précises:<br />
-              Existent-ils vraiment des inégalités entre femmes et hommes dans les mondes de l'art ?<br />
-              Est-ce que découvrir des artistes consistent simplement à trouver le « talent » ?<br />
-              Quelles sont les solutions mises en place par les pouvoirs publics pour répondre à ces difficultés ?<br />
-              Est-ce qu'il est vraiment impossible de faire une exposition de femmes artistes ?<br />
-              Est-ce que les artistes racisé.e.s connaissent les mêmes difficultés que les autres artistes ?<br />
+              Est-ce qu'il existe encore vraiment des inégalités dans la culture ?<br />
+              Pourquoi y a-t-il aussi peu de femmes dans l'histoire de l'art ?<br />
+              Est-ce que les artistes "racisé.e.s" sont aussi visibles que les autres artistes ?<br />
+              On ne peut pas choisir de montrer des femmes artistes, car ce qui compte avant tout, c'est le talent ?<br />
+              Comment faire pour mettre plus en avant le travail des femmes artistes ?<br />
             </p>
             <img src="~/assets/images/questions_thematiques.jpg" alt="Photos de personnes questionnées" />
           </nuxt-link>
@@ -83,7 +82,7 @@ export default {
 
 @media (min-width: $tablet) {
   .home a.page-link {
-    padding: 2rem;
+    padding: 1.8rem;
   }
 }
 
