@@ -74,9 +74,11 @@ export default {
 
 @import "~bulma/sass/utilities/_all";
 
+/*
 #header {
   margin-bottom: 4rem;
 }
+*/
 
 .container.banner {
   max-width: 1216px;

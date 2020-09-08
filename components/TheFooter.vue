@@ -33,7 +33,7 @@
 @import "~bulma/sass/utilities/_all";
 
 footer {
-  margin-top: 5rem
+  margin-top: 2rem
 }
 
 .partner {
@@ -53,7 +53,7 @@ img.portrait {
 
 @media (min-width: $tablet) {
   footer {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   img {

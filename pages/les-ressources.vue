@@ -39,7 +39,7 @@
 
     <h2 class="is-centered thanks">Un immense merci à</h2>
     <p>
-      Hanna Alkema - Florent Barrallon - Carolle Benitah  - Gwladys Bernard - Francois Chanussot - Céline Clanet - Karin Crona - Chloé Devis - Christine Docher - Denise Frechet - Gwenola Furic - Erika Gentry - Michel Golzio - Sophie Knittel - Anne Lautier - Marc Lenot - Carol Letanneur - Catherine Lottier - Julie Luzoir - Małgosia  Magryś - Cécile Menendez - Ingrid Milhaud - Marie-Laure Rigal - Marie Robert - Marijane Rougelot - Agnès Tissot - Laetitia Tura - Valérie Vernhet - Eliane Viennot - Ericka Weidmann - Noémie Sauve - Oristelle Bonis -  Guillaume Le Coz - Henry Docher Et toutes les personnes qui ont rendu ce projet réalisable
+      Hanna Alkema - Florent Barrallon - Carolle Benitah  - Gwladys Bernard - Francois Chanussot - Céline Clanet - Karin Crona - Chloé Devis - Christine Docher - Denise Frechet - Gwenola Furic - Erika Gentry - Michel Golzio - Sophie Knittel - Anne Lautier - Carol Letanneur - Catherine Lottier - Julie Luzoir - Małgosia  Magryś - Cécile Menendez - Ingrid Milhaud - Marie-Laure Rigal - Marie Robert - Marijane Rougelot - Agnès Tissot - Laetitia Tura - Valérie Vernhet - Eliane Viennot - Ericka Weidmann - Noémie Sauve - Oristelle Bonis -  Guillaume Le Coz - Henry Docher Et toutes les personnes qui ont rendu ce projet réalisable
     </p>
   </section>
 </template>
