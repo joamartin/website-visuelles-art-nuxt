@@ -16,7 +16,7 @@
                 Pourquoi le champ des arts visuels ne s’est pas, ou très peu, saisi de ces questions ? Comment prendre conscience de l'uniformité des artistes exposés ? Quelles sont les conséquences pour les artistes, les expositions, les institutions, les festivals, l'histoire et le marché de l'art, mais aussi sur nos regards et nos représentations ? Comment rompre avec ces biais culturels et insuffler une diversité de genre et d'origine, et par conséquent de créations et de points de vue ? Quelles sont les conditions de féminisation des mondes de l’art ?
               </p>
               <p>
-                C'est à toutes ces questions que Marie Docher s'intéresse. Photographe et réalisatrice, elle a commencé sa démarche d'analyse et de recherche en créant en 2014 le blog <a href="https://atlantesetcariatides.wordpress.com/about/" target="_blank">Atlantes & Cariatides</a> sous le pseudonyme masculin de Vincent David.
+                C'est à toutes ces questions que <a href="https://la-fabrique-des-representations.best/parcours" target="_blank">Marie Docher</a> s'intéresse. Photographe et réalisatrice, elle a commencé sa démarche d'analyse et de recherche en créant en 2014 le blog <a href="https://atlantesetcariatides.wordpress.com/about/" target="_blank">Atlantes & Cariatides</a> sous le pseudonyme masculin de Vincent David.
               </p>
               <p>
                 La mesure précède l’action. Afin de mettre en lumière le manque de représentation des créatrices dans les expositions, les collections institutionnelles ou les festivals, elle a simplement compté quelle était la part des femmes. Compter pour que les femmes comptent ! Le résultat de ses analyses était édifiant. Il permet de révéler ce dont nous n'avons pas toujours conscience : la très faible représentation des femmes artistes alors qu’elles sont très nombreuses et que leurs contributions à l'histoire de l'art (beaucoup d'entre elles en ont été tout bonnement effacées) et à la création contemporaine sont d'une importance capitale. Ces chiffres ont été mis à jour en novembre 2019 et présentés à <a href="https://la-part-des-femmes.com/2019/11/un-point-chiffre-et-sociologique-sur-les-aspects-genres-de-la-profession-de-photographe-paris-photo-2019/" target="_blank">Paris Photo</a>.
@@ -32,7 +32,7 @@
               </p>
               <p>
                 « Visuelles.art : ce que le genre fait à l’art » existe grâce à l’aide d’Aware et du Ministère de la Culture/DGCA ainsi qu’à la réalisatrice Léa Troulard, au chargé de projet Florent Barrallon et à l'association Territoires en marge.<br />
-                Contribuez vous aussi à la diffusion de ces entretiens en les partageant parmi vos réseaux !
+                Contribuez vous aussi à la diffusion de ces entretiens en les partageant sur vos réseaux !
               </p>
             </div>
           </div>
@@ -58,11 +58,11 @@
                 Au cours de discussions sur les réseaux sociaux ou ailleurs vous pouvez être amené·es à enrichir la conversation avec des points spécifiques que vous trouvez pertinents dans un des entretiens. Nous les avons reconfigurés à cet usage. Ce sont des outils pratiques.
               </p>
               <p class="has-text-centered">
-                Existe-t-il encore des inégalités entre femmes et hommes dans la culture ?<br />
-                Pourquoi les femmes sont-elles quasi-absentes de l’Histoire de l'art ?<br />
-                Est-ce que les artistes "racisé.e.s" sont aussi visibles que les autres artistes ?<br />
+                Existe-t-il encore des inégalités <br />entre femmes et hommes dans la culture ?<br />
+                Pourquoi les femmes sont-elles quasi-absentes<br /> de l’Histoire de l'art ?<br />
+                Est-ce que les artistes "racisé.e.s"<br /> sont aussi visibles que les autres artistes ?<br />
                 Pourquoi le genre est important, si seul le talent compte ?<br />
-                Est-ce qu'exposer plus de femmes se fait au détriment de la qualité ?
+                Est-ce qu'exposer plus de femmes <br />se fait au détriment de la qualité ?
               </p>
             </nuxt-link>
           </div>
@@ -77,7 +77,7 @@
 export default {
   head () {
     return { title: 'Visuelles.art - Ce que le genre fait à l\'art' }
-  }
+  },
 }
 
 </script>

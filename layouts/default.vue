@@ -15,6 +15,21 @@ export default {
   components: {
     TheNavbar,
     TheFooter
+  },
+
+  created() {
+    this.handleLang(this.$route.name)
+    this.$router.beforeEach((to, from, next) => {
+      this.handleLang(to.name)
+      next()
+    })
+  },
+
+  methods: {
+    handleLang(routeName) {
+      const lang = routeName === 'the-project' ? 'en' : 'fr'
+      this.$store.commit('changeLang', lang);
+    }
   }
 }
 

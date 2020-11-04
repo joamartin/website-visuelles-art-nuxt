@@ -1,5 +1,16 @@
 <template>
   <footer class="container">
+    <div class="socials has-text-centered">
+      <a href="https://twitter.com/home?status=https://visuelles.art/">
+        <span class="icon"><i class="mdi mdi-36px mdi-twitter"></i></span>
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://visuelles.art/">
+        <span class="icon"><i class="mdi mdi-36px mdi-facebook"></i></span>
+      </a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://visuelles.art/&title=&summary=&source=">
+        <span class="icon"><i class="mdi mdi-36px mdi-linkedin"></i></span>
+      </a>
+    </div>
     <h2 class="has-text-centered">Avec le soutien de</h2>
 
     <div class="partner columns is-mobile">
@@ -34,6 +45,14 @@
 
 footer {
   margin-top: 2rem
+}
+
+.socials {
+  margin: 0 0 32px 0;
+}
+
+.socials a {
+  margin: 0 32px;
 }
 
 .partner {

@@ -20,7 +20,7 @@
             Comment les institutions et les festivals partagent-ils les mêmes mécanismes excluant les femmes ?
           </p>
           <p class="has-text-justified">
-            Comment l'actuel Ministère de la Culture se mobilise-t-il pour l’égalité et la diversité à travers sa feuille de route, un programme ambitieux, visant à la fois une plus grande représentations des femmes dans tous les secteurs de l'art, mais aussi une transmission de la culture de l'égalité, la fin des discriminations, des réticences, des violences sexistes ou encore des inégalités salariales dans les établissements publics ?
+            Comment l'actuel ministère de la Culture se mobilise-t-il pour l’égalité et la diversité à travers sa feuille de route, un programme ambitieux, visant à la fois une plus grande représentations des femmes dans tous les secteurs de l'art, mais aussi une transmission de la culture de l'égalité, la fin des discriminations, des réticences, des violences sexistes ou encore des inégalités salariales dans les établissements publics ?
           </p>
           <p class="has-text-justified">
             Toutes ces questions – et plus encore – sont abordées et analysées dans ces entretiens qui viennent composer une matériel riche d'ouverture, de réflexions pour toute personne s’intéressant à l'art, pour les professionnel·les, les enseignant·es, les étudiant·es, le public.

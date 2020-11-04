@@ -1,8 +1,14 @@
 <template>
   <header id="header">
-    <div class="container banner">
+    <div class="container banner is-hidden-touch lang">
+      <div v-if="lang === 'fr'" class="has-text-right">
+        <span class="lang-link active">FR</span> / <nuxt-link to="/the-project" class="lang-link">EN</nuxt-link>
+      </div>
+      <div v-else class="has-text-right">
+        <nuxt-link to="/" class="lang-link">FR</nuxt-link> / <span class="lang-link active">EN</span>
+      </div>
       <div class="banner is-hidden-touch">
-        <img src="~/assets/images/banner.jpg" alt="bannière" />
+        <img src="~/assets/images/banner.png" alt="bannière" />
       </div>
     </div>
 
@@ -37,6 +43,15 @@
           id="navbar-header"
           :class="['navbar-menu', { 'is-active': menu }]"
         >
+          <div class="navbar-start is-hidden-desktop has-text-right">
+            <div v-if="lang === 'fr'" class="has-text-right navbar-item">
+              <span class="lang-link active">FR</span> / <a href="#" class="lang-link">EN</a>
+            </div>
+            <div v-else class="has-text-right navbar-item">
+              <a href="#" class="lang-link">FR</a> / <span class="lang-link active">EN</span>
+            </div>
+          </div>
+
           <nuxt-link class="navbar-item" to="/">Accueil</nuxt-link>
           <nuxt-link class="navbar-item" to="/les-entretiens">Les Entretiens</nuxt-link>
           <nuxt-link class="navbar-item" to="/les-questions-thematiques">Les Questions Thematiques</nuxt-link>
@@ -57,6 +72,12 @@ export default {
     return { menu: false }
   },
 
+  computed: {
+    lang() {
+      return this.$store.state.lang
+    }
+  },
+
   methods: {
     toggleMenu () {
       this.menu = !this.menu
@@ -74,11 +95,9 @@ export default {
 
 @import "~bulma/sass/utilities/_all";
 
-/*
-#header {
-  margin-bottom: 4rem;
+.container.lang {
+  margin-top: 12px;
 }
-*/
 
 .container.banner {
   max-width: 1216px;
@@ -97,12 +116,6 @@ export default {
   display: block;
   margin: auto;
 }
-
-/*
-nav .container {
-  border-top: 1px solid #000;
-}
-*/
 
 .navbar-menu {
   place-content: center;
@@ -135,6 +148,23 @@ a.navbar-item:hover {
 a.navbar-item:hover:after {
   background: #363636;
   transition: background-color 0.4s;
+}
+
+a.lang-link {
+  font-family: 'MarketDeco';
+  text-decoration: none;
+  color: hsl(0, 0%, 71%);
+}
+
+.lang-link.active {
+  font-family: 'MarketDeco';
+  text-decoration: none;
+  color: hsl(0, 0%, 14%)
+}
+
+a.lang-link:hover {
+  color: hsl(0, 0%, 21%);
+  transition: color 0.4s;
 }
 
 .menu-obfuscator {
