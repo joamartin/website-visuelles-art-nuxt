@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/les-questions-thematiques", {data:[{}],fetch:[],mutations:[["changeLang","fr"]]});
